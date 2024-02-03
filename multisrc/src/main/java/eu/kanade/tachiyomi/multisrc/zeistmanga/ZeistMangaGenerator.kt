@@ -14,7 +14,6 @@ class ZeistMangaGenerator : ThemeSourceGenerator {
     override val sources = listOf(
         SingleLang("AiYuManhua", "https://www.aiyumanhua.com", "es", className = "AiYuManhua", pkgName = "aiyumanga", overrideVersionCode = 28),
         SingleLang("AnimeXNovel", "https://www.animexnovel.com", "pt-BR"),
-        SingleLang("Asupan Komik", "https://www.asupankomik.my.id", "id", overrideVersionCode = 1),
         SingleLang("Celestial Moon", "https://www.celestialmoonscan.com", "es", isNsfw = true),
         SingleLang("Eleven Scanlator", "https://elevenscanlator.blogspot.com", "pt-BR"),
         SingleLang("Guilda Tier Draw", "https://www.guildatierdraw.com", "pt-BR", isNsfw = true),
@@ -29,7 +28,6 @@ class ZeistMangaGenerator : ThemeSourceGenerator {
         SingleLang("Mikrokosmos Fansub", "https://mikrokosmosfb.blogspot.com", "tr", isNsfw = true),
         SingleLang("Shadow Çeviri", "https://shadowceviri.blogspot.com", "tr", className = "ShadowCeviri"),
         SingleLang("ShiyuraSub", "https://shiyurasub.blogspot.com", "id"),
-        SingleLang("SobatManKu", "https://www.sobatmanku19.site", "id"),
         SingleLang("Tooncubus", "https://www.tooncubus.top", "id", isNsfw = true),
         SingleLang("Tyrant Scans", "https://www.tyrantscans.com", "pt-BR"),
         SingleLang("Yokai", "https://yokai-team.blogspot.com", "ar", overrideVersionCode = 1),
