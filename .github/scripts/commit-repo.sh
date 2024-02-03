@@ -5,6 +5,7 @@ rsync -a --delete --exclude .git --exclude .gitignore --exclude README.md --excl
 git config user.name "$(git log -n 1 --pretty=format:%an)"
 git config user.email "$(git log -n 1 --pretty=format:%ae)"
 
+
 git status
 if [ -n "$(git status --porcelain)" ]; then
     git add .
